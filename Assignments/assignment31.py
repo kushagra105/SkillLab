@@ -7,4 +7,8 @@ def fibonacci(n):
 n = int(input("Enter number of terms:"))
 print("Fibonacci sequence:")
 for i in range(n):
+<<<<<<< HEAD
     print (fibonacci(i))
+=======
+    print(fibonacci(i))
+>>>>>>> a9a0c7d9ec0c864a0a87a82454e4b18250a6147b
