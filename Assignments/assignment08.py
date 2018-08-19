@@ -1,4 +1,4 @@
-num =16;
+num =16
 num1 = num/6
 num2 = num//6
 num3 = num//6.0
