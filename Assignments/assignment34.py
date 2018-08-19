@@ -1,3 +1,4 @@
+# Consider the set and predict the output
 fruits = {"apple","orange","banana","apple","pear","papaya","papaya"}
 fruit_basket = {"apple","banana","grapes","mango","kiwi"}
 print (fruits)
