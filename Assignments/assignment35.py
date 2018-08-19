@@ -1,3 +1,4 @@
+#Write a python program to satisfy below mentioned business requirements
 java_course = {"John","Jack","Jill","Joe"}
 python_course = {"Jake","John","Eric","Jill"}
 print ("Number of students for python course are :",len(python_course))
