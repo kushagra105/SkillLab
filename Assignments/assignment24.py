@@ -9,12 +9,12 @@ def scase():
     return
 
 def pallindrome():
-    n = input("Enter a number\n")
-    m = n[::-1]
-    if m == n :
-        print("Entered number "+n+"is a pallindrome")
+    str = input("Enter a string\n")
+    m = str[::-1]
+    if m == str :
+        print("Entered string "+str+"is a pallindrome")
     else : 
-        print("Entered number "+n+" is not a pallindrome")
+        print("Entered string "+str+" is not a pallindrome")
     return    
 
 def vowel():
@@ -35,7 +35,11 @@ def punc():
     return print("String without punctuations: "+''.join(ch for ch in s if ch not in exclude))
     
 
-
+print("Press")
+print("1. to count and display the number of capital letters in a given string")
+print("2. to check if a given string is pallindrome or not")
+print("3. to count the number of each vowel in a string")
+print("4. to remove all punctuation from the string provided by user\n")
 ch = input("Enter your choice\n")
 if ch == '1' :
     scase()
