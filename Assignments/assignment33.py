@@ -14,6 +14,6 @@ for i in range(n):
     if list1[i] == c:
         q=int(input("Enter the quantity"))
         v=list2[i]*q
-        print("The total price of the consignment is",v)
+        print("The total price of the consignment is ",v)
         exit(0);
 print("No furniture found")
