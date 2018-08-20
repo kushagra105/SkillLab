@@ -1,5 +1,6 @@
 def pallindrome(str):
-    print("Reverse of string is "+str[::-1])
+    str.replace(" ","")
+    print("Resultant string is\n"+str[::-2])
   
 str = input("Enter a string\n")
 pallindrome(str)
