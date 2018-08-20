@@ -1,16 +1,16 @@
 import string
 
-def scase(str3):
-    print("ashdjasgd")
-    for i in str3:
+def scase(str2):
+    str = ""
+    for i in str2:
         if i.isupper():
-            print(i)
+            str1 = str1+i
     return        
             
 def vowel():
     str2 = input("Enter a string\n")
-    str2 = str2.casefold()
     scase(str2)
+    str2 = str2.casefold()
     vowel = 'aeiou'
     count = {}.fromkeys(vowel,0)
     list1 = []
