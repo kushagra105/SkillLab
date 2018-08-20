@@ -1,11 +1,13 @@
 n = int(input("Enter number of elements : "))
 list1 = []
 list2 = []
+print("Enter the name of furniture")
 for i in range (n):
-    a=input("Enter the furniture")
+    a=input()
     list1.append(a)
+print("Enter the price of furniture")
 for i in range (n):
-    b=int(input("Enter the price of the furniture"))
+    b=int(input())
     list2.append(b)
 c=input("Enter the furniture to be serched")
 for i in range(n):
