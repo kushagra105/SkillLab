@@ -1,7 +1,6 @@
 import string
 
 def scase(str2):
-    str = ""
     for i in str2:
         if i.isupper():
             str1 = str1+i
