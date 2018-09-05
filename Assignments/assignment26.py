@@ -20,6 +20,6 @@ def vowel():
         if count[i] > 1 :
             list1.append(count)
     print(count)
-    return
+    return 
 
 vowel()
