@@ -1,4 +1,4 @@
-# Write a program to Solve the given problem
+# Assignment 39: Write a program to Solve the given problem
 def check_baggage(baggage_amount):
     if (baggage_amount >= 0):
         return True
@@ -31,3 +31,8 @@ def traveler():
         print ("Traveler name is : ", traveler_name)
         print ("Detain Traveller for re-checking!")
 traveler()
+
+# ======================OUTPUT=========================
+# Traveler id is :  1001
+# Traveler name is :  Jim
+# Allow travaler to fly

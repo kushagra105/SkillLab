@@ -11,3 +11,14 @@ if((1002 in customer_details) == False):
     print ("Customer with customer id 1002 doesn't exist")
 elif((1002 in customer_details) == True):
     print ("Customer with customer id 1002 exist")
+
+
+# ========================OUTPUT=======================
+# Number of students for python course are : 4
+# Students enrolled for java course only :  {'Jack', 'Joe'}
+# Students enrolled for python course only :  {'Eric', 'Jake'}
+# Number of students enroll for both java and python course :  2
+# Students enroll for both java and python course :  {'Jill', 'John'}
+# Number of Students enroll for either java or python course but not both :  {'Eric', 'Joe', 'Jake', 'Jack'}
+# Students enroll for either java or python course but not both :  {'Eric', 'Joe', 'Jake', 'Jack'}
+# Students enroll for either or python course :  {'Eric', 'Joe', 'Jake', 'Jill', 'John', 'Jack'}
