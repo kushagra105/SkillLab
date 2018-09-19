@@ -1,3 +1,5 @@
+# Assignment 11 : 
+
 bill_id=1001
 customer_id=101
 bill_amount=int(input("Enter the bill amount"))
@@ -8,3 +10,9 @@ else:
 print("bill_id " ,bill_id)
 print("customer_id:",customer_id)
 print("bill_amount Rs",bill_amount)
+
+# ======================OUTPUT=========================
+# Enter the bill amount 100
+# bill_id  1001
+# customer_id: 101
+# bill_amount Rs 99.0

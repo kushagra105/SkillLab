@@ -1,3 +1,4 @@
+# Assignment 15 : 
 emp_id = int(input("Enter ID"))
 salary = int(input("Enter Salary"))
 allowances = 6000
@@ -7,4 +8,7 @@ if salary > 10000:
 else:
     print("No Salary Deductions")
 print("Employee ID", emp_id)
-print("Salery after tax deductions", salary)
+print("Salary after tax deductions", salary)
+
+# ======================OUTPUT=========================
+# wrong
