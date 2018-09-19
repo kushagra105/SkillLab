@@ -1,4 +1,4 @@
-# Asiignment 28:  Operations On Tuples
+# Assignment 28:  Operations On Tuples
 head = ("CEO",)
 elements = ('Air','Water','Fire','Light','Land')
 

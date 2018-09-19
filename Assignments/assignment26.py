@@ -1,3 +1,5 @@
+# Assignment 26 : 
+
 import string
 
 def scase(str2):
@@ -23,3 +25,8 @@ def vowel():
     return 
 
 vowel()
+
+# ======================OUTPUT=========================
+# Enter a string
+# python is a programming language
+# {'a': 4, 'e': 1, 'i': 2, 'o': 2, 'u': 1}

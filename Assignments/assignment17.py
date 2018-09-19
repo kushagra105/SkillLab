@@ -1,3 +1,4 @@
+# Assignment 17 : 
 counter = 1
 while counter <= 3:
     print(counter)
@@ -31,3 +32,20 @@ while months < 6:
     months += 1
 print(amount)
 print("End of Program 5")
+
+# ======================OUTPUT=========================
+# 1
+# 2
+# 3
+# End of Program 1
+# To find the sum of first 10 integers:
+# Sum: 55
+# End of Program 2
+# 10
+# End of program 3
+# 40
+# 70
+# 90
+# End of program 4
+# 248.83200000000002
+# End of Program 5
