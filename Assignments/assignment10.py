@@ -9,3 +9,4 @@ print("Bill Amount:",amount)
 # ======================OUTPUT========================= 
 # Item No: 1005
 # Bill Amount: 500
+

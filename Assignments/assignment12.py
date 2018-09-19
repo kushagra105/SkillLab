@@ -1,5 +1,4 @@
 # Assignment 12 :
-CODE:
 bill_id = 1001
 customer_id = 101
 bill_amount = 200.0
