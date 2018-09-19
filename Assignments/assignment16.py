@@ -1,4 +1,5 @@
-# Assignment 16 :
+#Assignment 16 : 
+
 emp_id = int(input("Enter ID"))
 salary = int(input("Enter Salary"))
 allowances = 6000
@@ -16,4 +17,4 @@ else:
 print("Employee ID", emp_id)
 print("Salary after tax deductions", salary)
 
-#wrong
+# ======================OUTPUT=========================
