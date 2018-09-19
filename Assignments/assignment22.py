@@ -13,4 +13,7 @@ else :
     print("Invalid customer name. Customer name should be between 3 and 20 characters.")
 
 # ======================OUTPUT=========================
-#wrong please correct
+# bill_id:  1001
+# customer_id:  101
+# customer_name:  Lorem Ipsum
+# bill_amount Rs 199.99

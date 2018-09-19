@@ -12,7 +12,7 @@ def pallindrome():
     str = input("Enter a string\n")
     m = str[::-1]
     if m == str :
-        print("Entered string "+str+"is a pallindrome")
+        print("Entered string "+str+" is a pallindrome")
     else : 
         print("Entered string "+str+" is not a pallindrome")
     return    
@@ -49,3 +49,35 @@ elif ch == '3' :
     vowel()
 elif ch == '4' :
     punc()
+
+# ======================OUTPUT=========================
+# Press
+# 1. to count and display the number of capital letters in a given string
+# 2. to check if a given string is pallindrome or not
+# 3. to count the number of each vowel in a string
+# 4. to remove all punctuation from the string provided by user
+
+# Enter your choice
+# 1
+# Enter a string
+# PYthoN
+# Upper case character(s) in entered string PYthoN is/are
+# P
+# Y
+# N    
+# Enter your choice
+# 2
+# Enter a string
+# nitin
+# Entered string nitin is a pallindrome
+# Enter your choice
+# 3
+# Enter a string
+# count vowels
+# {'a': 0, 'e': 1, 'i': 0, 'o': 2, 'u': 1}
+# Enter your choice
+# 4
+# Enter a string with punctuations
+# hello world:"^&^%#@
+# String with punctuations: hello world:"^&^%#@
+# String without punctuations: hello world
