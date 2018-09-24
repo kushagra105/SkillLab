@@ -1,4 +1,5 @@
-#Run the program and observe the output
+# Assignment 59 : Run the program and observe the output
+
 class PrintDetails:
     def printheader(self, c, no=1):
         print(c*no)
@@ -23,6 +24,17 @@ class PurchaseBill:
         objprint.printheader("-", 80)
         objprint.printheader("          Thank You           ")
         objprint.printheader("-", 80)
-        objpur = PurchaseBill(101, 1055.0)
-        objpur.calculatebill("Creadit", 10.5)
-        objpur.displaybill()
+        
+objpur = PurchaseBill(101, 1055.0)
+objpur.calculatebill("Credit", 10.5)
+objpur.displaybill()
+
+# =========================OUTPUT========================
+# --------------------------------------------------------------------------------
+#       Easy Shop Retail Store Bill
+# --------------------------------------------------------------------------------
+# Bill Id: 101
+# Final amount to be paid : Rs. 1165.775
+# --------------------------------------------------------------------------------
+#           Thank You
+# --------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-#Implement the solution to the Problem using Object Oriented Language
+# Assignment 47 : Implement the solution to the Problem using Object Oriented Language
 class Customer:
     def setcustomerid(self, id):
         self.__customerid = id
@@ -13,3 +13,7 @@ custobj.setcustomerid(1001)
 custobj.settelephoneno(123456789)
 print ("Customer ID :",custobj.getcustomerid())
 print ("Telephone No : ",custobj.gettelephoneno())
+
+# ===================OUTPUT====================
+# Customer ID : 1001
+# Telephone No :  123456789

@@ -1,4 +1,4 @@
-#Implementation of association relationship using a retail application scenario
+# Assignment 60 : Implementation of association relationship using a retail application scenario
 class customer :
     counter = 1000 #class variable
     def __init__(self, telephoneno, customername, add):
@@ -62,3 +62,18 @@ print ("Discount : ",regcustobj2.getdiscount())
 print ("Customer's address: ",regcustobj2.getaddress().getaddress())
 print ("\n")
 print ("Total customers registered: ", customer.gettotalcustomer())
+
+# =========================OUTPUT=========================
+# Customer id:  1001
+# Telephone number:  [9201861311, 9201861321, 9201661311]
+# Customer name:  John
+# Discount :  12.5
+# Customer's address:  No.22, Vijay Nagar Mysore Karnataka 570018
+
+# Customer id:  1002
+# Telephone number:  [1122334455, 1199887766, 2244668897]
+# Customer name:  Mary
+# Discount :  15.6
+# Customer's address:  NO.33, JP road Bangalore Karnataka 570011
+
+# Total customers registered:  2
