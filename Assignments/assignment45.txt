@@ -1,0 +1,14 @@
+Answer the following questions:
+
+    1. Wrapping up of data of different types into a single unit is known as encapsulation.
+    2. Inheritance means the ability to reuse the data values of one object by other objects.
+    3. Polymorphism is extensively used in implementing inheritance.
+    4. Object-oriented systems can scale up better from small to large
+    5. Object-based languages do not support inheritance and dynamic binding.
+
+Answer:
+    1. True
+    2. True
+    3. False
+    4. True
+    5. False
