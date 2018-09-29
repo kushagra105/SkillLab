@@ -1,0 +1,20 @@
+Answer the following questions:
+1. In the ATM machine,
+    the customer chooses the operations using a touch screen.
+    The customer need not know the internal working of the ATM machine.
+    Which OO concept(s) can be used in this scenario?
+
+2. Consider the following statement:
+    “Vehicles can be of two types viz. Water vehicles and Land vehicles “.
+    Which OO concept may be used to represent this scenario?
+
+3. As part of our family trip plan we went to Zoo.
+    My son asked me lot of questions I tried my level best to answer all of his questions.
+    I showed him different types of monkeys which were locked in different rooms.
+    He asked me, “Dad, you said all are monkeys then why they are kept in different rooms?”
+    Now, which OO concept may be used to represent this scenario?
+
+Answer
+1. Abstraction
+2. Polymorphism
+3. Polymorphism

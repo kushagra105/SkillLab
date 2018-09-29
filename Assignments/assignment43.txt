@@ -1,0 +1,26 @@
+Problem Description:
+
+A supermarket wants to automate the system of purchase of items by customers and the billing process.
+The automation involves the maintenance of items, employees, customers, purchase of items by customer and billing of items.
+Customers can be regular visitors to the store in which case they are eligible for discounts based on the bill amount.
+The customers can also be privileged ones, wherein they are given membership cards (Platinum, Gold and Silver).
+Such customers are eligible for gifts based on the type of membership card.
+The billing staff does the billing and delivery of items to the customer.
+The bill calculation involves the logic of computation of the bill depending on customer type.
+The customer can pay the bill through credit card or cash.
+In the former case, two percent processing charge is applicable.
+Sales tax is also applicable on the final bill amount.
+Employees in that supermarket can be permanent and temporary.
+Permanent employees will get additional benefits in salary.
+
+
+
+Questions
+• Identify the classes.
+• Identify the attributes behaviors associated with each class.
+
+Answer
+• Classes here are Customer, Employee and billing
+• Customer have the attribute of membership and there billing.
+    Bills here add the tax and other charges.
+    Employee can be a part of firm or can be a temporary one.
