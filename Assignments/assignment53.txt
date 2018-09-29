@@ -1,0 +1,9 @@
+Problem Description: The Retail Store has the requirement for printing many reports including the bill.
+All reports contain header.
+The header may be
+       a line containing a character printed 70 times or
+       a title of a report or
+       a line containing a character specified number of times
+
+
+Answer the following questions:

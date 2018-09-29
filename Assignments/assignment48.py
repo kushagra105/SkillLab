@@ -1,4 +1,4 @@
-# Assignment 48 : 
+# Assignment 48 : Using  self reference
 class Customer:
     def setcustomerid(self, customerid):
         self.customerid = customerid

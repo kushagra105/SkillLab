@@ -1,4 +1,4 @@
-#Assignment 49 : 
+#Assignment 49 : Use of _init__() method & Static members – Observations from Retail Application
 
 class retail:
     def __init__(self, id=100, name="Null", ):
