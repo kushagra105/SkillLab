@@ -1,0 +1,84 @@
+ assignment57: Inheritance quiz
+class Base:
+    def __init__(self):
+        print("Parent init invoked")
+class Derived(Base):
+    def __init__(self):
+        print("Derived init invoked")
+obj = Derived()
+
+=============OUTPUT=================
+Derived init invoked
+
+class Base:
+    def __init__(self, v):
+        self.baseVar = v
+        self.var = 0
+        print("Base Class init invoked")
+
+class Der(Base):
+    def__init__(self, v):\
+        super().__init__(v)
+        self.derVar = v
+        self.var = 0
+        print("Derived class init invoked")
+
+    def display(self):
+        print("Base variable value: ", self.baseVar)
+        print("Derived variable value: ", self.derVar)
+
+    def useOfSuper(self): self.var = 15
+        print("Base Variable Value -> ", Base.var)
+        print("Derived Variable Value -> ", self.var)
+d = Der(10)
+d.display()
+d.useOfSuper()
+
+================OUTPUT========================
+Version No: 1.0 Page 71 of 79
+Runtime Error: This is because the data members of the base class can’t be overridden by the derived
+class as the members are added to object during initialization and not to the class.
+Hence, the error message “type object 'Base' has no attribute 'var'”
+
+class Base:
+    def __init__(self, v):
+        self.baseVar = v
+        print("Base Class init invoked")
+class Der(Base):
+    def __init__(self, v):
+        self.derVar=v
+        print("Derived class init invoked")
+        def display(self):
+            print("Base variable value: ", self.baseVar)
+            print("Derived variable value: ", self.derVar)
+d = Der(10)
+d.display()
+
+=========================OUTPUT========================
+
+Derived class init invoked
+Traceback (most recent call last):
+  File "C:/Users/kush_pc/PycharmProjects/SkillLab/SkillLab/Assignments/assignment57.py", line 55, in <module>
+    d.display()
+AttributeError: 'Der' object has no attribute 'display'
+
+class Base:
+    def __init__(self, v):
+        self.baseVar = v
+        print("Base Class init invoked")
+class Der(Base):
+    def __init__(self, v):
+        self.derVar=v
+        print("Derived class init invoked")
+        def display(self):
+            print("Base variable value: ", self.baseVar)
+            print("Derived variable value: ", self.derVar)
+d = Der(10)
+d.display()
+
+==============================OUTPUT==========================
+Traceback (most recent call last):
+  File "C:/Users/kush_pc/PycharmProjects/SkillLab/SkillLab/Assignments/assignment57.py", line 77, in <module>
+    d.display()
+AttributeError: 'Der' object has no attribute 'display'
+Derived class init invoked
