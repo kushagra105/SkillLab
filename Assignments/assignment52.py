@@ -1,4 +1,4 @@
-#Assignment53: Instance and Static Methods
+#Assignment52: Instance and Static Methods
 class Customer:
     def __init__(self, cid=1000):
         self.__customerid=cid+1

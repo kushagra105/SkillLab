@@ -1,4 +1,4 @@
- assignment57: Inheritance quiz
+Assignment57: Inheritance quiz
 class Base:
     def __init__(self):
         print("Parent init invoked")
