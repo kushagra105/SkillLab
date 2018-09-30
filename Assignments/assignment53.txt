@@ -7,3 +7,5 @@ The header may be
 
 
 Answer the following questions:
+    Which object oriented concept do you think is needed to implement this scenario?
+    ANSWER: Inheritance.
